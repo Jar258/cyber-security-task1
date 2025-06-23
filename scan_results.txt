@@ -1,0 +1,33 @@
+# Nmap 7.97 scan initiated Mon Jun 23 15:17:49 2025 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.062s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 6C:4F:89:17:F9:4B (Zyxel Communications)
+
+Nmap scan report for POCO-M6-5G (192.168.1.6)
+Host is up (0.012s latency).
+All 1000 scanned ports on POCO-M6-5G (192.168.1.6) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 66:E2:D3:6C:62:A8 (Unknown)
+
+Nmap scan report for Galaxy-Tab-A9 (192.168.1.14)
+Host is up (0.0079s latency).
+All 1000 scanned ports on Galaxy-Tab-A9 (192.168.1.14) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 56:5C:29:C6:B4:FD (Unknown)
+
+Nmap scan report for DESKTOP-B26PSUR (192.168.1.7)
+Host is up (0.0013s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Mon Jun 23 15:19:08 2025 -- 256 IP addresses (4 hosts up) scanned in 78.49 seconds
