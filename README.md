@@ -1,23 +1,23 @@
-# 🛡️ Cyber Security Internship - Task 1: Scan Your Local Network for Open Ports
+Cyber Security Internship - Task 1: Scan Your Local Network for Open Ports
 
-## 🎯 Objective
+Objective
 Learn to discover open ports on devices in the local network using Nmap to understand network exposure and risks.
 
 ---
 
-## 🛠 Tools Used
+Tools Used
 - Nmap 7.97 (free and open-source)
 - Command Used: `nmap -sS 192.168.1.0/24 -oN scan_results.txt`
 
 ---
 
-## 🌐 Network Info
+Network Info
 - **My Host IP**: 192.168.1.7
 - **Subnet Range Scanned**: 192.168.1.0/24
 
 ---
 
-## 📊 Scan Summary
+Scan Summary
 
 ### 1. Router (192.168.1.1)
 - **Open Ports**: 53 (DNS), 80 (HTTP), 443 (HTTPS)
@@ -56,7 +56,7 @@ Learn to discover open ports on devices in the local network using Nmap to under
 
 ---
 
-## 🔐 Security Learnings
+Security Learnings
 
 - Port scanning helps identify visible services that attackers could target.
 - Devices with no open ports are less exposed.
@@ -65,11 +65,11 @@ Learn to discover open ports on devices in the local network using Nmap to under
 
 ---
 
-## 📁 Files Included
+ Files Included
 - `scan_results.txt` — full scan output from Nmap.
 - `README.md` — this documentation file.
 
 ---
 
-## ✅ Task Completed
+Task Completed
 All results analyzed and saved.
